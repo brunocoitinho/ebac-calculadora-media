@@ -20,7 +20,7 @@ form.addEventListener('submit', function(e){
 
 function adicionaLinha(){
     const inputNomeAtividade = document.getElementById('nome-atividade')
-    const inputNotaAtividade = document.getElementById('nota-atividade')1
+    const inputNotaAtividade = document.getElementById('nota-atividade')
 
     if (atividades.includes(inputNomeAtividade.value)){
         alert(`Essa atividade (${inputNomeAtividade.value}) já foi inserida anteriormente`)
@@ -35,8 +35,6 @@ function adicionaLinha(){
         linha += '</tr>'
 
         linhas += linha
-
-        
 
     }
 
